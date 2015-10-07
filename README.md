@@ -1,7 +1,8 @@
 # Presto
-Capture the Presto code and best practices
 
-Java 8 is the mandatory version for Presto
+Java 8 is the mandatory version for Presto.
+
+More details on Presto are available from [Presto] (https://prestodb.io/) website
 
 ### Presto Installation:
 
