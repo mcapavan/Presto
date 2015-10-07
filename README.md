@@ -18,13 +18,15 @@ cd Presto/auto-install
 ./install.sh
 
 ###Start Presto Server: 
-/usr/local/presto/bin/tools/start-presto.sh
+cd /usr/local/presto/bin/tools
+./start-presto.sh
 
 run jps to confirm the PrestoServer is running
 
 ###Access Hive via Presto CLI:
 
-/usr/local/presto/bin/tools/start-presto-cli.sh --server localhost:8084 --catalog hive --schema default
+cd /usr/local/presto/bin/tools
+./start-presto-cli.sh --server localhost:8084 --catalog hive --schema default
 
 presto:default> show tables;
 
