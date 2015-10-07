@@ -90,6 +90,6 @@ conf/install-java8.sh
 
 conf/install-presto.sh
 
-conf/start-presto.sh
-
+echo "Presto $PRESTO_VERSION installation is SUCCESSFUL!!!"
+echo "Run lib/start-presto.sh to start Presto Server and Run lib/start-presto-cli for use Presto CLI"
 
