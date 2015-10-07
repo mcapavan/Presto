@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo "Loading properties"
+. install.properties
+
 
 command -v mvn >/dev/null 2>&1 || {
     echo "Maven it's not installed.  Installing maven." >&2;

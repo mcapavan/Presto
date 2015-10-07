@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Loading properties"
+. install.properties
+
 tar zxvf /root/Downloads/presto-server-$PRESTO_VERSION.tar.gz
 
 mv presto-server-$PRESTO_VERSION /usr/local
