@@ -3,10 +3,11 @@ Capture the Presto code and best practices
 
 Java 8 is the mandatory version for Presto
 
-## Presto Installation:
+### Presto Installation:
+
+You will be installing Presto on Hortonworks Sandbox. Please refer [Hortonworks Sandbox] (http://hortonworks.com/products/hortonworks-sandbox/#install/ "HDP Sandbox") website if required.
 
 Log on to HDP Sandbox via CLI / Putty 
-Please refer [Hortonworks Sandbox] (http://hortonworks.com/products/hortonworks-sandbox/#install/ "HDP Sandbox") if required.
 
 Ensure you have internet access on Sandbox to download Maven, Java and Presto. The total download size is around 600MB.
 
@@ -16,11 +17,12 @@ cd Presto/auto-install
 
 ./install.sh
 
-Start Presto Server: /usr/local/presto/bin/start-presto.sh
+###Start Presto Server: 
+/usr/local/presto/bin/tools/start-presto.sh
 
 run jps to confirm the PrestoServer is running
 
-Access Hive via Presto CLI:
+###Access Hive via Presto CLI:
 
 /usr/local/presto/bin/tools/start-presto-cli.sh --server localhost:8084 --catalog hive --schema default
 
