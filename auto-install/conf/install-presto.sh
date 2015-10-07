@@ -9,7 +9,9 @@ mv presto-server-$PRESTO_VERSION /usr/local
 
 mv /usr/local/presto-server-$PRESTO_VERSION /usr/local/presto
 
-cp ../lib/*.* /usr/local/presto/bin
+mkdir /usr/local/presto/bin/tools
+
+cp tools/*.* /usr/local/presto/bin/tools
 
 cp /root/Downloads/presto-cli-$PRESTO_VERSION-executable.jar /usr/local/presto/bin
 
