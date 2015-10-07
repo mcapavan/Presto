@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Loading properties"
-. install.properties
+. config.properties
 
 echo "Starting Presto CLI"
 echo "Java: ${JAVA_VERSION}"
