@@ -9,11 +9,11 @@ mv presto-server-$PRESTO_VERSION /usr/local
 
 mv /usr/local/presto-server-$PRESTO_VERSION /usr/local/presto
 
-cp /mnt/tmp/dls/presto-cli-$PRESTO_VERSION-executable.jar /usr/local/presto/bin
+cp /root/Downloads/presto-cli-$PRESTO_VERSION-executable.jar /usr/local/presto/bin
 
-mv /usr/local/presto/bin/presto-cli-$PRESTO_VERSION-executable.jar /usr/local/presto/bin/presto
+mv /usr/local/presto/bin/presto-cli-$PRESTO_VERSION-executable.jar /usr/local/presto/bin/presto-cli
 
-chmod +x /usr/local/presto/bin/presto
+chmod +x /usr/local/presto/bin/presto-cli
 
 mkdir /usr/local/presto/etc
 mkdir /usr/local/presto/etc/catalog
